@@ -311,6 +311,26 @@ section.promo p {
     font-size: 2vw;
 }
 
+div.residential {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+div.residential h1 {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.residential h2 {
+    font-size: 40px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+div.residential p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 
 
@@ -468,7 +488,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-@media screen and (max-width: 600px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2){
     .bg-empowerment {
         background-attachment: scroll;
     }
